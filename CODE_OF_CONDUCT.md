@@ -9,7 +9,7 @@ In the interest of fostering an open and welcoming environment, we as contributo
 Examples of behavior that contributes to creating a positive environment include:
 
 * Be friendly and patient
-* Be welcoming and Considerate
+* Be welcoming and considerate
 * Being respectful of differing viewpoints and experiences
 * Gracefully accepting constructive criticism
 * Focusing on what is best for the community
