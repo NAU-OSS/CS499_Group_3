@@ -11,14 +11,24 @@
 #ifndef PARSER_H
 #define PARSER_H
 
+#include "string_to_int_converter.h"
+
 // Struct declarations
-/*
-struct error{
-    int code;
-    char statement[100];
-};
-*/
 
 // Function Prototypes
+bool isDigit(char curr);
+bool isValid(char *numString);
+int strLength(char *str);
+bool removeLeadingZeros(char *numString);
+bool removeTrailingZeros(char *numString);
+bool removeLeadingSpaces(char *numString);
+bool removeTrailingSpaces(char *numString);
+bool addLeadingZero(char *numString, char *new_string);
+char *getCharacteristic(char *numString, char *newString);
+char *getMantissa(char *numString, char *newString);
+int getMantissaLength(char *numString);
+char * strCat(char *dest, char *source);
+int strCmp(char *str1, char *str2);
+char *strCpy(char *destination, char *source);
 
 #endif  // PARSER_H
